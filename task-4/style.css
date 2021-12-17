@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+     
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    height: 100vh;
+    background: url(./images/pattern-background-desktop.svg),hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+
+}
+.card-container{
+    width: 450px;
+    height:auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius:18px;
+    overflow: hidden;
+
+}
+.image{
+    height: auto;
+    width: 210px;
+
+}
+/*first part*/
+.text-part{
+    font-size: 17px;
+    text-align: center;
+    padding: 30px;
+    font-family:'Red Hat Display', sans-serif ;
+     
+}
+.paragraph{
+    padding-top: 20px;
+    line-height: 25px;
+    color: hsl(224, 23%, 55%);
+    font-size: 18px;
+    font-family:'Red Hat Display', sans-serif ;
+}
+/* second part*/
+.second-part{
+     width: 350px;
+     margin-left: 50px;
+     margin-right: 50px;
+     display: flex;
+     padding-top: 24px;
+     padding-bottom: 10px;
+     background-color: hsla(225, 100%, 94%, 0.301);
+      
+}
+.logo{
+    padding-left: 15px;
+}
+.text-part2{
+    padding-left: 24px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.text-part2 span{
+    color:  hsl(224, 23%, 55%);
+}
+.link{
+    padding-left: 85px;
+    padding-top:5px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+
+}
+/*third part*/
+.bottom-part{
+     width: 371px;
+     text-align: center;
+     margin-left: 41px;
+}
+      
+.btn
+{
+    height: 50px;
+    width: 94%;
+    color:hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 30px;
+    border: lightblue;
+    border-radius:10px;
+    box-shadow: 0 14px 10px lightgrey;
+    font-weight: 900;
+    font-size: 16px;
+}
+    
+.last{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+    border: none;
+    width: 94%;
+    height: 50px;
+    background-color:hsl(225, 100%, 98%);
+    font-weight: 900;
+}
