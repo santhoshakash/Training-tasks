@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:hsl(0, 100%, 74%) url(images/bg-intro-desktop.png);
+    
+}
+/* container part */
+.container{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+/* content part */
+.content{
+    align-items: center;
+    padding-right: 70px;
+    color: #fff;
+
+}
+.content .c1{
+    font-size: 50px;
+    line-height: 47px;
+}
+.content .c2{
+    font-size: 16px;
+    padding-top: 30px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.664);
+}
+ /*second part */
+ .first-box{
+    text-align: center;
+    margin-bottom: 24px;
+     
+}
+.fb{
+    width: 530px;
+    padding-top: 24px;
+    padding-bottom: 20px;   
+    color: #fff;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    font-size: 14px;
+    border: none;
+}
+.fb span{
+    font-weight: 900;
+}
+
+.second-box{
+    width: 530px;
+    background-color: #fff;
+    height: auto;
+    border-radius: 8px;
+
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    padding-left: 54px;
+}
+.name{
+    border:1px solid hsla(249, 10%, 26%, 0.363) ;
+}
+.name:focus-visible{
+    border:2px solid  black;
+    outline: black;
+}
+.fname{
+    width: 410px;
+    height: 51px;
+    padding-left: 10px;
+    margin-top: 40px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.lname{
+    width: 410px;
+    padding-left: 10px;
+    height: 51px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.email{
+    width: 410px;
+    padding-left: 10px;
+    height: 51px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.password{
+    width: 410px;
+    height: 51px;
+    padding-left: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+.claim{
+    padding-top: 21px;
+    margin-top: 18px;
+    margin-right: 64px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color:#fff;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border:none;
+}
+.desc{
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 45px;
+    color:hsl(246, 25%, 77%)
+}
+.desc span{
+    color:hsl(0, 100%, 74%); 
+}
