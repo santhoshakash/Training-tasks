@@ -50,6 +50,7 @@
     border-radius: 8px;
     font-size: 14px;
     border: none;
+    box-shadow: 0 7px 0px hsla(249, 10%, 26%, 0.26) ;
 }
 .fb span{
     font-weight: 900;
@@ -60,8 +61,9 @@
     background-color: #fff;
     height: auto;
     border-radius: 8px;
-
+    box-shadow: 0 9px 0px hsla(249, 10%, 26%, 0.26) ;
 }
+
 .forms{
     display: flex;
     flex-direction: column;
@@ -77,21 +79,21 @@
 .fname{
     width: 410px;
     height: 51px;
-    padding-left: 10px;
+    padding-left: 25px;
     margin-top: 40px;
     font-weight: 600;
     border-radius: 5px;
 }
 .lname{
     width: 410px;
-    padding-left: 10px;
+    padding-left: 25px;
     height: 51px;
     font-weight: 600;
     border-radius: 5px;
 }
 .email{
     width: 410px;
-    padding-left: 10px;
+    padding-left: 25px;
     height: 51px;
     font-weight: 600;
     border-radius: 5px;
@@ -99,7 +101,7 @@
 .password{
     width: 410px;
     height: 51px;
-    padding-left: 10px;
+    padding-left: 25px;
     font-weight: 600;
     border-radius: 5px;
     
@@ -114,6 +116,7 @@
     background-color: hsl(154, 59%, 51%);
     border-radius: 5px;
     border:none;
+    box-shadow: 0 3px 0px hsla(249, 10%, 26%, 0.548) ;
 }
 .desc{
     font-size: 10px;
@@ -121,6 +124,7 @@
     padding-bottom: 45px;
     color:hsl(246, 25%, 77%)
 }
-.desc span{
+.desc a{
     color:hsl(0, 100%, 74%); 
+    text-decoration: none;
 }
